@@ -1,0 +1,15 @@
+{
+    "elevator": {
+        "version": "0.3.0",
+        "files" : {
+            "build/elevator.0.3.0.js" : [
+                "src/elevator.js"
+            ]
+        },
+        "module": "Nova.elevator",
+        "src": "src/elevator.js",
+        "requires": {
+            "widget": "module/widget/1.0.2/widget"
+        }
+    }
+}
