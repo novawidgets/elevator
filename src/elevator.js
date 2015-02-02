@@ -10,7 +10,7 @@
 			classNames: {
 				item: 'elevator-item'
 			},
-			selecters: {
+			selectors: {
 				target: '.elevator-target'
 			},
 			targetContainer: document,
@@ -24,7 +24,7 @@
 		refresh: function(){
 			var attrs = this.get();
 			var itemClass = attrs.classNames.item;
-			var targetList = $(attrs.selecters.target, attrs.targetContainer);
+			var targetList = $(attrs.selectors.target, attrs.targetContainer);
 
 			var itemHtmlList = [];
 
