@@ -6,8 +6,8 @@ define(['module/widget/1.0.2/widget'], function() {return factory.apply(root, ar
 } else {
 root['Elevator'] = factory.apply(root);
 }
-})(this, function(widget) {
-widget = widget || this.widget;
+})(this, function(Widget) {
+Widget = Widget || this.Widget;
 
 
 	var directionMap = {
